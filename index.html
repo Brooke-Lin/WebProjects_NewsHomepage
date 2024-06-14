@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg py-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="assets/images/logo.svg" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="navmenu">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item ms-lg-4">
+                <a class="nav-link" href="#">New</a>
+              </li>
+              <li class="nav-item ms-lg-4">
+                <a class="nav-link" href="#">Popular</a>
+              </li>
+              <li class="nav-item ms-lg-4">
+                <a class="nav-link" href="#">Trending</a>
+              </li>
+              <li class="nav-item ms-lg-4">
+                <a class="nav-link" href="#">Categories</a>
+              </li> 
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
+
+  <!-- MAIN CONTENT -->
+    <section class="container-fluid">
+      <div class="row d-lg-flex g-4 mb-5">
+        <div class="col-lg-8">
+          <img src="assets/images/image-web-3-desktop.jpg" class="img-fluid mb-5 main-img__desktop" alt="">
+          <img src="assets/images/image-web-3-mobile.jpg" class="img-fluid mb-5 main-img__mobile" alt="">
+          <div class="row d-lg-flex g-3">
+            <h1 class="col-lg-6 fw-bold display-4">The Bright Future of Web 3.0?</h1>
+            <div class="col-lg-6">
+              <p class="mb-5 main-content"> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                But is it really fulfilling its promise?</p>
+              <a href="#" class="btn btn-danger btn-lg py-3 px-5">READ MORE</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="bg-dark">
+            <ul class="list-group list-group-flush lead p-4" > 
+              <li><h2 class="text-warning">New</h2></li>
+              <li class="list-group-item bg-dark text-light py-3">
+                <a href="#" class="new-title fw-bold">Hydrogen VS Electric Cars</a>
+                <p class="new-description">Will hydrogen-fueled cars ever catch up to EVs?</p>
+              </li>
+              <li class="list-group-item bg-dark text-light py-3">
+                <a href="#" class="new-title fw-bold">The Downsides of AI Artistry</a>
+                <p class="new-description">What are the possible adverse effects of on-demand AI image generation?</p>
+              </li>
+              <li class="list-group-item bg-dark text-light py-3">
+                <a href="#" class="new-title fw-bold">Is VC Funding Drying Up?</a>
+                <p class="new-description">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+              </li>
+            </ul>
+          </div> 
+        </div>
+      </div>   
+    </section>
+
+
+  <!-- CATEGORIES -->
+    <section class="container-fluid">
+      <div class="categories d-lg-flex g-3 justify-content-between">
+        <div class="card lg-3 border-0" style="width: 100%;">
+          <div class="row g-0">
+            <div class="col-4">
+              <img src="assets/images/image-retro-pcs.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-8">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">01</h5>
+                <a href="#" class="card-text fw-bold">Reviving Retro PCs</a>
+                <p class="card-text"><small class="text-body-secondary">What happens when old PCs are given modern upgrades?</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="card lg-3 border-0" style="width: 100%;">
+          <div class="row g-0">
+            <div class="col-4">
+              <img src="assets/images/image-top-laptops.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-8">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">02</h5>
+                <a href="#" class="card-text fw-bold">Top 10 Laptops of 2022</a>
+                <p class="card-text"><small class="text-body-secondary">Our best picks for various needs and budgets.</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="card lg-3 border-0" style="width: 100%;">
+          <div class="row g-0">
+            <div class="col-4">
+              <img src="assets/images/image-gaming-growth.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col-8">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">03</h5>
+                <a href="#" class="card-text fw-bold">The Growth of Gaming</a>
+                <p class="card-text"><small class="text-body-secondary">How the pandemic has sparked fresh opportunities.</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+</body>
+</html>
