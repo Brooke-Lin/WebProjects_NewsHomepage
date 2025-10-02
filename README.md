@@ -11,7 +11,7 @@ A responsive news homepage built with HTML, CSS, and Bootstrap. This project sho
 * Organized CSS with comments
 * Easy to customize and extend
 
-**Skills Used**
+**Technologies Used**
 -
 * HTML
 * CSS
