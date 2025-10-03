@@ -17,6 +17,10 @@ A responsive news homepage built with HTML, CSS, and Bootstrap. This project sho
 * CSS
 * Bootstrap
 
-**Demo**
+**Live Demo Link**
 -
 https://brooke-lin.github.io/news-homepage/#
+
+**Design Attribution**
+-
+The design for this project is based on a challenge from the Frontend Mentor website, but all code in this project was written by me.
